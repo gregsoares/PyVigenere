@@ -1,3 +1,22 @@
+#Pycharm ConfigFiles
+codestyles
+colors.scheme.xml
+debugger.xml
+editor.codeinsight.xml
+editor.xml
+filetypes.xml
+github_settings.xml
+ide.general.xml
+inspection
+jdk.table.xml
+_linux
+other.xml
+project.default.xml
+
+ui.lnf.xml
+vcs.xml
+vim_settings.xml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
