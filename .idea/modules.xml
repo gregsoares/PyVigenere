@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PyVigenere.iml" filepath="$PROJECT_DIR$/.idea/PyVigenere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VigenerePyCharm.iml" filepath="$PROJECT_DIR$/.idea/VigenerePyCharm.iml" />
     </modules>
   </component>
 </project>
