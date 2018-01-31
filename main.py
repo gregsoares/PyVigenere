@@ -16,7 +16,6 @@ def readFile(file): #Takes in a file and returns its content
     fp = open('sample2_modified.txt', 'r')
     fileText = fp.read()
     print(fileText)
-    fp.close()
     return fileText
 
 def writeToFile(file, textInput): #Writes to the specified file(creates it if it doesn't exist)
@@ -46,13 +45,13 @@ def encode(plain_text): #Take in a list and encode with hardcoded key
         plain.append(item)
         if (c%2) == 0:
             #cipher_text.append(chr((ord(item)+ord(key[0]))%26))
-            print('H = 72  + %d = %s ' %((ord(plain_text.index(c))), item))
-            print(' mod26(' + key[0] + ' + ' + plain_text.index(c) + '\) = ' + (((ord(item))+(ord(key[0]))) % 26))
+            #print('H = 72  + %d = %s ' %((ord(plain_text.index(c))), item))
+            #print(' mod26(' + key[0] + ' + ' + plain_text.index(c) + '\) = ' + (((ord(item))+(ord(key[0]))) % 26))
             c = c+1
 
         else:
-            print('H = 72  + %d = %s ' % (ord(plain_text.index(c)), item))
-            print(' mod26(' + key[0] + ' + ' + plain_text.index(c) + '\) = ' + (((ord(item))+(ord(key[0]))) % 26))
+            #print('H = 72  + %d = %s ' % (ord(plain_text.index(c)), item))
+            #print(' mod26(' + key[0] + ' + ' + plain_text.index(c) + '\) = ' + (((ord(item))+(ord(key[0]))) % 26))
             c = c+1
     return cipher_text
 
