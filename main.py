@@ -4,7 +4,8 @@
 # Decipher
 # Print result from Decipher
 
-# import sys
+#import string
+#import sys
 
 
 def readFile(file):  # Takes in a file and returns its content
@@ -55,29 +56,15 @@ def encode(plain_text,key):  # Take in a list and encode with hardcoded key
     return cipher_text
 
 # Take in a cipher_text and a key ==> (cipher_text[i] - key[i])+65 then cast to chr and return.
-def decode(cipher_text,in_key):
-    key = []
-    key.extend(in_key)
-    decoded = []
-    mod_num = 0
-    c = 0;
-    print (key[c])
-    c +=1
-    print (key[c])
-    for letter in cipher_text:
-        temp = ord(letter)
-        # num_key = int(key[c])
-        temp = int(temp)
-        new_temp = temp - num_key
-        if (new_temp < 0): # If temp < 0 then add 26 and keep going with decoding
-            new_temp = temp + 26
-        dec_letter = chr(temp + 65)
-        decoded.append(dec_letter)
-        if (c == len(key)): # If at the end of the key array then reset key[i]
-            c = 0
-        else:
-            c = c+1
-    return decoded
+def decode(cipher_text,key):
+    temp = ord(cipher_text)
+    
+    mod_num = (temp - key)
+    if (mod_num < 0): # If mod_num < 0 then add 26 and keep going with decoding
+        mod_num = mod_num + 26
+    dec_letter = chr(temp + 65)
+    print (dec_letter)
+    return dec_letter
 
 
 
@@ -89,6 +76,7 @@ def main():
     key = [72,73]
     to_cipher = []
     counter = 0
+    cipher_text = []
 
     for element in plaintext:  # Turns each letter to uppercase and adds it to: to_cipher
         if element.isalpha():
@@ -102,21 +90,31 @@ def main():
     # print(to_cipher)
     # print("Length of original message: %d \t -------------\n Length of to_cipher: %d"%(len(plaintext),len(to_cipher)))
     print("\n\nUpper case of Plain Text: ")
-    for word in range(1, len(to_cipher)):
-        print(to_cipher[word], end='')
+   # for word in range(1, len(to_cipher)):
+   #     print(to_cipher[word], end='')
 
     print("\n\nPrinting cipher_text: ")
     cipher_text = encode(to_cipher,key)
     for word in range(1, len(cipher_text)):
         print(cipher_text[word], end='')
-    print('')
-    #print ((len(cipher_text)))
-    #print ((len(to_cipher)))
-    
+        #print ((len(cipher_text)))
+        #print ((len(to_cipher)))
+        
+    c = 0
     print ('Calling Decrypt function: \n')
-    decrypted = decode(cipher_text,key)
+    for letter in range(1, len(cipher_text)):
+        if (letter % 2) == 1:
+            str_ciphertxt = str(cipher_text[letter])
+            decrypted = decode(str_ciphertxt,key[1])
+            print (decrypted, end='')
+        else:
+            str_ciphertxt = str(cipher_text[letter])
+            decrypted = decode(str_ciphertxt,key[1])
+            print (decrypted, end='')
+        c +=1
 
-    for word in range(1, len(decrypted)):
-        print(decrypted[word], end='')
+
+    # for word in range(1, len(decrypted)):
+    #    print(decrypted[word], end='')
     
 main()
