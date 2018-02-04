@@ -99,6 +99,8 @@ def main():
         print(cipher_text[word], end='')
         #print ((len(cipher_text)))
         #print ((len(to_cipher)))
+
+
         
     c = 0
     print ('Calling Decrypt function: \n')
