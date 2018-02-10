@@ -1,20 +1,56 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
-    <filemarks />
-    <jumps />
-    <registers />
+    <filemarks>
+      <file name="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" timestamp="1518281184623">
+        <mark key="'" line="31" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="10" column="20" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1518281188090">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="10" column="0" filename="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" />
+      <jump line="18" column="0" filename="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" />
+      <jump line="26" column="0" filename="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" />
+      <jump line="32" column="0" filename="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" />
+    </jumps>
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ZnJvbSBwYW5kYXMgaW1wb3J0IHJlYWRfY3N2Cg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ZnJvbSBwYW5kYXMgaW1wb3J0IHJlYWRfY3N2Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>set relativenumber</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search />
-      <history-cmd />
+      <history-cmd>
+        <entry>w</entry>
+        <entry>set relativenumber</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
