@@ -10,8 +10,22 @@
         <mark key="^" line="10" column="20" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1518283091632">
+      <file name="/start_script.py" timestamp="1518476637869">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ServerClient_Pythread/client.py" timestamp="1518477582488">
+        <mark key="[" line="3" column="13" />
+        <mark key="]" line="30" column="70" />
+        <mark key="^" line="30" column="70" />
+        <mark key="." line="30" column="70" />
+      </file>
+      <file name="/Python Console" timestamp="1518478811790">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ServerClient_Pythread/server.py" timestamp="1518478660405">
+        <mark key="[" line="34" column="44" />
+        <mark key="]" line="34" column="44" />
+        <mark key="." line="34" column="44" />
       </file>
     </filemarks>
     <jumps>
@@ -24,14 +38,14 @@
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBwYW5kYXMgaW1wb3J0IHJlYWRfY3N2Cg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBwYW5kYXMgaW1wb3J0IHJlYWRfY3N2Cg==</text>
+      <register name="&quot;" type="4">
+        <text>'</text>
       </register>
       <register name=":" type="4">
-        <text>set relativenumber</text>
+        <text>w</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>'</text>
       </register>
     </registers>
     <search>
@@ -41,8 +55,8 @@
     <history>
       <history-search />
       <history-cmd>
-        <entry>w</entry>
         <entry>set relativenumber</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -53,6 +67,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
