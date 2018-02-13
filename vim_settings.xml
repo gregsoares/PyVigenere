@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/PycharmProjects/StatsDataSum/main.py" timestamp="1518281184623">
@@ -29,6 +29,12 @@
         <mark key="[" line="34" column="44" />
         <mark key="]" line="34" column="44" />
         <mark key="." line="34" column="44" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Project 1/FirstProject.py" timestamp="1518535095127">
+        <mark key="[" line="18" column="27" />
+        <mark key="]" line="18" column="26" />
+        <mark key="^" line="18" column="26" />
+        <mark key="." line="18" column="26" />
       </file>
     </filemarks>
     <jumps>
